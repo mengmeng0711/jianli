@@ -1,0 +1,380 @@
+﻿*{
+    padding:0;
+    margin:0;
+}
+html,body{
+    width:100%;
+    height:100%;
+}
+.fd{
+    clear:both;
+}
+.container {
+    width: 100%;
+    height: 100%;
+    position: relative;
+    overflow: hidden;
+}
+
+    .container > div {
+        width: 100%;
+        height: 100%;
+        position: absolute;
+        top: 0;
+        left: 0;
+        overflow: hidden;
+    }
+           .img100{
+        width:0.8rem;
+        height:0.8rem;
+        border-radius:50%;
+        position:fixed;
+        top:0.2rem;
+        right:0.2rem;
+        z-index:99;
+    }
+    /*第一页开始*/
+    .div_1{
+        background-color:#6ed8f5;
+        position:relative;
+    }
+    .div_1 img:nth-child(1){
+        width:4.5rem;
+        height:4rem;
+        position:absolute;
+        top:0;
+        left:0.8rem;
+        animation:yun1 0.5s linear both;
+    }
+    .div_1 img:nth-child(2){
+        width:4.0rem;
+        height:3.0rem;
+        position:absolute;
+        top:0;
+        left:-1.3rem;
+         animation:yun2 0.5s 0.5s linear both;
+    }
+    .div_1 img:nth-child(3){
+        width:3rem;
+        height:2.5rem;
+        position:absolute;
+        top:0.5rem;
+        left:3.9rem;
+        animation:yun3 0.5s 1s linear both;
+    }
+    .div_1 img:nth-child(4){
+        width:4.5rem;
+        height:8rem;
+        position:absolute;
+        top:3rem;
+        right:0.2rem;
+         animation:yun4 0.8s 1s linear both;
+    }
+    .div_1 .p1{
+        font:0.77rem "宋体";
+        color:#000;
+        font-weight:bold;
+        position:absolute;
+        top:3rem;
+        left:0.3rem;
+        animation:yun5 0.5s 1.8s linear both;
+    }
+    .div_1 .p2{
+        font:0.55rem "宋体";
+        color:#000;
+        font-weight:bold;
+        position:absolute;
+        top:6.5rem;
+        left:0.3rem;
+        animation:yun5 0.5s 1.8s linear both;
+    }
+
+    /*第一页结束*/
+    .div_2{
+        position:relative;
+    }
+    .div_2 img:nth-child(1){
+        width:6.4rem;
+        height:100%;
+        position:absolute;
+        top:0;
+        left:0;
+    }
+        .div_2>div{
+            width:1.5rem;
+            height:1.5rem;
+            background-color:#fff;
+            opacity:0.6;
+            position:absolute;
+            top:0.8rem;
+            left:2.5rem;
+        }
+        .div1 p{
+            font:0.45rem "宋体";
+            color:#000;
+            font-weight:bold;
+            text-align:center;
+            line-height:1.5rem;
+        }
+        .div2{
+            animation:zhuan1 1s linear alternate infinite;
+        }
+        .div_2 ul{
+            list-style:none;
+            position:absolute;
+            left:1rem;
+            top:3rem;
+        }
+        .div_2 ul li{
+            width:4rem;
+            height:1.2rem;
+            margin:0 auto;
+            color:#fff;
+            font-weight:bold;
+            border-bottom:2px solid #fff;
+            margin-top:0.2rem;
+        }
+        .div_2 ul li>p{
+            font:0.66rem "宋体";
+            float:left;
+            opacity:0;
+            animation:tou 0.2s 1.7s linear both;
+        }
+        .div_2 ul li>img{
+            width:0.5rem;
+            height:0.5rem;
+            float:left;
+            margin-left:0.2rem;
+            margin-right:0.2rem;
+            margin-top:0.1rem;
+        }
+        .img1{
+            animation:tou2 0.5s 1s linear both;
+        }
+         .img2{
+            animation:tou3 0.5s 1s linear both;
+        }         
+        .div_2 ul li>div{
+            width:2rem;
+            height:0.8rem;
+            border:2px dashed #fff;
+            border-radius:5px;
+            float:left;
+            opacity:0;
+            animation:tou 0.2s 1.7s linear both;
+        }
+        .div_2 ul li>div p{
+            font:0.45rem "宋体";  
+            color:#fff;
+            text-align:center;
+            font-weight:bold;
+            line-height:0.8rem;
+        }
+    /*第二页结束*/
+    .div_3{
+        position:relative;
+    }
+    .div_3 img:nth-child(1){
+        width:6.4rem;
+        height:100%;
+        position:absolute;
+        top:0;
+        left:0;
+    }
+    .div_3 img:nth-child(2){
+        position:absolute;
+        z-index:10;
+        animation:ge1 1s linear both; 
+    }
+    .div_3 img:nth-child(3){
+        width:5rem;
+        position:absolute;
+        z-index:10;
+        top:4.5rem;
+        left:0.33rem;
+        animation:ge2 1s 1s  linear both; 
+    }
+    .div_3 img:nth-child(4){
+        position:absolute;
+        z-index:10;
+        top:0.5rem;
+        left:5rem;
+        animation: hu 3s 1.7s linear infinite;
+    }
+    .div_3 img:nth-child(5){
+        width:2rem;
+        height:2rem;
+        position:absolute;
+        z-index:10;
+        top:2.8rem;
+        left:1.7rem;
+        border-radius:50%;
+        animation: zhao 1.5s 1s linear both;
+    }
+    .div_3 ul{
+        position:absolute;
+        z-index:10;
+        top:5.1rem;
+        left:1.55rem;
+        list-style:none;
+        animation:ge3 1s 1.5s  linear both; 
+    }
+        .div_3 ul li {
+            height: 0.88rem;
+            font: 0.35rem "宋体";
+            color: #6ed8f5;
+            font-weight: 600;
+        }
+    /*第三页结束*/
+    .div_4{
+        position:relative;
+    }
+    .div_4 img:nth-child(1){
+        width:6.4rem;
+        height:100%;
+        position:absolute;
+        top:0;
+        left:0;
+    }
+    .div_4 img:nth-child(2){
+        position:absolute;
+        z-index:10;
+        animation:ge1 1s linear both; 
+    }
+    .div_4 ul{
+        list-style:none;
+        position:absolute;
+        z-index:10;
+        position:absolute;
+        left:1rem;
+        top:2rem;
+    }
+    .div_4 ul li{
+        height:1.3rem;
+        list-style-image:url(images/er-1.png);
+        font:0.35rem "微软雅黑";
+        color:#fff;
+    }
+    .chu{
+        animation:xue 1s 1.5s linear both; 
+    }
+    .gao{
+        animation:xue 1s 2.5s linear both
+    }
+    .sheng{
+        animation:xue 1s 3.5s linear both
+    }
+    .div_4 .img{
+        width:4rem;
+        height:3rem;
+        position:absolute;
+        z-index:10;
+        top:8rem;
+        left:2rem;
+        animation:shu 1s 5s linear both
+    }
+    /*第四页结束*/
+    .div_5{
+        background:url(images/san-bg.jpg);
+        position:relative;
+    }
+    .div_5 img:nth-child(1){
+        animation:ge1 1s linear both; 
+    }
+    .div_5 p{
+        width:3rem;
+        font:0.33rem "宋体";
+        color:#fff;
+        position:absolute;
+        left:3rem;
+        top:4rem;
+        animation:you 1s linear both;
+    }
+    /*第五页结束*/
+     .div_6{
+        position:relative;
+    }
+     .div_6 img:nth-child(1){
+         width:6.4rem;
+         height:100%;
+         position:absolute;
+         top:0;
+         left:0;
+     }
+     .div_6 img:nth-child(2){
+         animation:ge1 1s linear both; 
+         position:absolute;
+         z-index:10;
+     }
+     .div_6 img:nth-child(3){
+         width:5.5rem;
+         height:4rem;
+         margin-left:0.4rem;
+         margin-top:2rem;
+         animation:suo 1s 1s linear both;
+         position:absolute;
+         z-index:10; 
+     }
+     .div_6 ul{
+         list-style:none;
+         position:absolute;
+         left:2rem;
+         top:3rem;
+         animation:suo1 1s 1s linear both; 
+         z-index:10;
+     }
+     .div_6 ul li{
+         width:2.0rem;
+         font:0.50rem "宋体";
+         color:#000;
+         text-align:center;
+     }
+     .div_6 ul li p{
+         animation:suo2 1s 2.5s linear both; 
+     }
+     /*第六页结束*/
+     .div_7{
+         background:url(images/wu-bg.jpg);
+        position:relative;
+    }
+     .div_7 img:nth-child(1){
+         animation:ge1 1s linear both; 
+     }
+      .div_7 img:nth-child(2){
+         width:3rem;
+         height:3rem;
+         position:absolute;
+         top:3rem;
+         left:0.5rem;
+          animation:ma 1s linear both;
+     }
+      #p1{
+          font:0.40rem "宋体";
+          color:#000;
+          font-weight:bold;
+          position:absolute;
+          left:1rem;
+          top:7.5rem;
+          animation:ma 1s 2s linear both;
+      }
+      #p2{
+          font:0.40rem "宋体";
+          color:#000;
+          font-weight:bold;
+          position:absolute;
+          left:1rem;
+          top:8.2rem;
+          animation:ge1 1s 2s linear both; 
+          
+      }
+      #p3{
+         font:0.60rem "宋体";
+         color:#000;
+         font-weight:bold;
+         position:absolute;
+         left:0.5rem;
+         top:6.3rem;
+         animation:ma2 1s 1s linear both;
+     }
+
+

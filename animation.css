@@ -1,0 +1,249 @@
+﻿.up {
+    transform: translateY(-100%);
+}
+
+.down {
+    transform: translateY(100%);
+}
+
+.guodu {
+    transition: transform 0.5s linear;
+}
+
+.yin {
+    display: none;
+}
+
+.xian {
+    display: block;
+}
+
+/*第一页开始*/
+
+@keyframes yun1{
+    0%{
+        transform:translateY(-100px)
+    }
+    100%{
+
+    }
+}
+@keyframes yun2{
+    0%{
+        transform:translateX(-150px)
+    }
+    100%{
+
+    }
+}
+@keyframes yun3{
+    0%{
+        transform:translateY(-150px)
+    }
+    100%{
+
+    }
+}
+@keyframes yun4{
+    0%{
+        transform:translateY(500px)
+    }
+    100%{
+
+    }
+}
+@keyframes yun5{
+    0%{
+        
+        transform:translateX(-220px) rotate(180deg)
+    }
+    100%{
+        
+    }
+}
+
+/*第二页开始*/
+
+@keyframes zhuan1{
+    0%{
+        transform:rotateZ(45deg)
+    }
+    100%{
+        transform:rotateZ(360deg)
+    }
+}
+
+@keyframes tou{
+    0%{
+
+    }
+    100%{
+        opacity:1;
+    }
+}
+@keyframes tou2{
+    0%{
+        transform:translateX(-300px)
+    }
+    100%{
+        
+    }
+}
+@keyframes tou3{
+    0%{
+        transform:translateX(300px)
+    }
+    100%{
+        
+    }
+}
+/*第三页开始*/
+@keyframes ge1{
+    0%{
+        transform:translateX(-300px)
+    }
+    100%{
+
+    }
+}
+@keyframes ge2{
+    0%{
+        transform:translateX(-300px)
+    }
+    100%{
+
+    }
+}
+@keyframes ge3{
+    0%{
+        transform:translateX(300px)
+    }
+    100%{
+
+    }
+}
+ @keyframes hu {
+            20% { /*开始的时候*/
+                margin-left: -175px;
+                margin-top:100px;
+            }
+            40%{
+                margin-left: -200px;
+                margin-top:200px;
+            }
+            60%{
+                margin-left: -300px;
+                margin-top:400px;
+            }
+            80%{
+                margin-left: -100px;
+                margin-top:500px;
+            }
+            100%{
+                margin-left: 150px;
+                margin-top:500px;
+            }
+        }
+ @keyframes zhao{
+     0%{
+         transform:translateY(-500px)
+     }
+     100%{
+
+     }
+ }
+/*第四页开始*/ 
+@keyframes xue{
+    0%{
+        transform:scale(0);
+    }
+    50%{
+        transform:scale(2);
+    }
+    100%{
+        transform:scale(1);
+    }
+}
+@keyframes shu{
+    0%{
+        transform:translateY(300px);
+    }
+    100%{
+      
+    }
+}
+/*第五页开始*/
+@keyframes you{
+    0%{
+        transform:translateX(300px)
+    }
+    100%{
+
+    }
+}
+/*第六页开始*/
+@keyframes suo{
+    0%{
+        transform:translateX(-330px)
+    }
+    100%{
+
+    }
+}
+@keyframes suo1{
+    0%{
+        transform:translateX(300px);
+    }
+    100%{
+         
+    }
+}
+@keyframes suo2{
+    0%{
+        transform:scale(0);
+    }
+    100%{
+        transform:scale(1); 
+    }
+}
+/*第七页开始*/
+@keyframes ma{
+    0%{
+        transform:translateX(500px)
+    }
+    100%{
+        
+    }
+}
+@keyframes ma2{
+    0%{
+        transform:scale(0)
+    }
+    50%{
+         transform:scale(2)
+    }
+    100%{
+        
+    }
+}
+
+
+
+
+/*为音乐增加样式*/
+
+
+.container .img-dong{
+    animation:img-zhuan 3.3s linear infinite;
+}
+
+@keyframes img-zhuan{
+    0%{
+        /*transform:rotateZ(0deg);*/
+    }
+    100%{
+        transform:rotateZ(360deg);
+    }
+}
+
+/*-----------------------------------------------*/
